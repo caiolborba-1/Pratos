@@ -5,7 +5,7 @@ $usuario = "root";
 $senha = "root";
 $banco = "Restaurante_Pratos";
 
-$conexao = new mysqli($host, $usuario, $Email, $banco);
+$conexao = new mysqli($host, $usuario, $senha, $banco);
 
 if ($conexao->connect_error) {
     die("Erro na conexão com o banco: " . $conexao->connect_error);
