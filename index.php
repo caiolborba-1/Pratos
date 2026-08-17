@@ -1,15 +1,11 @@
-
 <?php
 
 include "infra/conexao.php";
-$Usuario = mysqli_query($conexao, "SELECT * FROM livros");
 
 ?>
 
-
-
-<!DOCTYPE html> 
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -21,25 +17,31 @@ $Usuario = mysqli_query($conexao, "SELECT * FROM livros");
 <body>
 
     <header>
-        <h1>cadastrar usuario</h1>
+        <h1>Cadastrar Usuário</h1>
     </header>
+
     <main>
         <h2>Cadastro</h2>
+
         <form action="public/cadastrar.php" method="POST">
-            <label for="Usuario">Usuario:</label>
-            <input type="text" name="Usuario">
+
+            <label for="Usuario">Usuário:</label>
+            <input type="text" name="Usuario" id="Usuario">
+
             <br>
+
             <label for="Email">Email:</label>
-            <input type="text" name="Email">
+            <input type="email" name="Email">
+
             <br>
+
             <button type="submit">Cadastrar</button>
+
         </form>
-
     </main>
+
     <footer>
-
     </footer>
-
 
 </body>
 
