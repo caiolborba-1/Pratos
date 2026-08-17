@@ -3,9 +3,9 @@
 $host = "localhost";
 $usuario = "root";
 $senha = "root";
-$banco = "livraria_icaro_m2";
+$banco = "Restaurante_Pratos";
 
-$conexao = new mysqli($host, $usuario, $senha, $banco);
+$conexao = new mysqli($host, $usuario, $Email, $banco);
 
 if ($conexao->connect_error) {
     die("Erro na conexão com o banco: " . $conexao->connect_error);
