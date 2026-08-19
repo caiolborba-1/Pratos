@@ -18,7 +18,7 @@ $Pratos = mysqli_query($conexao, "SELECT * FROM pratos");
 
 
 
-?>
+?
 
 
 <!DOCTYPE html>
@@ -39,7 +39,7 @@ $Pratos = mysqli_query($conexao, "SELECT * FROM pratos");
     <main>
         <form action="public/cadastrar.php" method="POST">
 
-<label for="Nome">Nome:</label>
+<label for="Nome">Nome:</label>da
                 <input type="text" name="Nome" id="Nome">
             <br>
             <button type="submit">Cadastrar</button>
