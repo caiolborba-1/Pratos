@@ -2,7 +2,7 @@
 
 include "../infra/conexao.php";
 
-$Pratos = mysqli_query($conexao, "SELECT * FROM restaurante_pratos");
+$Pratos = mysqli_query($conexao, "SELECT * FROM pratos");
 
 ?>
 

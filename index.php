@@ -1,9 +1,9 @@
 <?php
 
 include "infra/conexao.php";
-if (!isset($conn) || $conn === null) {
-    die('Erro ao conectar com o banco de dados.');
-}
+
+
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nome = $_POST['nome'] ?? '';
     $email = $_POST['email'] ?? '';
