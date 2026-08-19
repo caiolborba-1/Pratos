@@ -6,11 +6,12 @@ CREATE TABLE Pratos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     Nome VARCHAR(200) NOT NULL,
     Preco DECIMAL(10,2) NOT NULL,
-    descricao VARCHAR(100) NOT NULL,
+    descricao text NOT NULL,
     categoria VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE Usuario (
     id INT AUTO_INCREMENT PRIMARY KEY,
     Nome VARCHAR(200) NOT NULL
+
 );
