@@ -9,3 +9,8 @@ CREATE TABLE Pratos (
     descricao VARCHAR(100) NOT NULL,
     categoria VARCHAR(100) NOT NULL
 );
+
+CREATE TABLE Usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(200) NOT NULL
+);
