@@ -1,6 +1,6 @@
 <?php
 
-include "infra/conexao.php";
+include "../infra/conexao.php";
 
 $Pratos = mysqli_query($conexao, "SELECT * FROM livros");
 
