@@ -23,7 +23,7 @@ include "infra/conexao.php";
     <main>
         <h2>Cadastro</h2>
 
-        <form action="public/cadastrar.php" method="POST">
+        <form action="public/tela_pratos.php" method="POST">
 
             <label for="Usuario">Usuário:</label>
             <input type="text" name="Usuario" id="Usuario">
