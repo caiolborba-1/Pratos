@@ -35,7 +35,9 @@ include "infra/conexao.php";
 
             <br>
 
-            <button type="submit">Cadastrar</button>
+            <a href="public/tela_pratos.php">
+                <button type="submit">Cadastrar</button>
+        </a>
 
         </form>
     </main>
